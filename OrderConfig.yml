@@ -18,7 +18,7 @@ spec:
         ports:
         - containerPort: 8080
       imagePullSecrets:
-      - name: deepuu
+      - name: deepuu1
 
 ---
 apiVersion: v1
