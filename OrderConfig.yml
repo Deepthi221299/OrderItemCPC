@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: orderitem
-        image: samplectr1.azurecr.io/orderrepos:latestorder
+        image: orderctr1.azurecr.io/orderrepos:latestorder
         ports:
         - containerPort: 8080
       imagePullSecrets:
